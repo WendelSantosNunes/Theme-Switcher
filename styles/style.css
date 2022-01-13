@@ -1,0 +1,60 @@
+/* Geral */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* body */
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body img {
+  width: 86.31px;
+  height: 86.31px;
+
+  margin: 10px;
+}
+
+.background-div {
+  background-color: #000;
+}
+
+.background {
+  background-color: #292c35;
+}
+
+.container {
+  display: flex;
+  gap: 35.69px;
+  border-radius: 50px;
+
+  position: relative;
+}
+
+.write-div {
+  width: 86.31px;
+  height: 86.31px;
+
+  margin: 10px;
+
+  background-color: #fff;
+  border-radius: 50px;
+
+  position: absolute;
+}
+
+.write-div:hover {
+  cursor: pointer;
+}
