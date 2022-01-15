@@ -1,8 +1,8 @@
 # Theme-Switcher
 
-![Página Principal](https://github.com/WendelSantosNunes/Social-Tree/blob/main/img/readme/P%C3%A1gina-principal.png?raw=true)
+![Página Principal2](https://github.com/WendelSantosNunes/Theme-Switcher/blob/main/assets/imgReadme/img1.png?raw=true)
 
----
+## ![Página Principal1](https://github.com/WendelSantosNunes/Theme-Switcher/blob/main/assets/imgReadme/img2.png?raw=true)
 
 ## 💻 **Tecnologias**
 
