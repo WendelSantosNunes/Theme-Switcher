@@ -7,7 +7,7 @@ function addBackground() {
   let h1 = document.querySelector('h1')
   console.log(result)
 
-  if (result == false) {
+  if (result == true) {
     body.classList.add('background')
     div.classList.add('active')
     h1.classList.add('active')
