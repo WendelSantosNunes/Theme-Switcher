@@ -16,8 +16,18 @@ body {
   min-height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+body h1 {
+  margin: -200px 0 200px 0;
+  font-size: 60px;
+}
+
+body h1.active {
+  color: #fff;
 }
 
 body img {
@@ -53,6 +63,13 @@ body img {
   border-radius: 50px;
 
   position: absolute;
+  transform: translate3d(0, 0, 0);
+  transition: 0.3s;
+}
+
+.write-div.active {
+  transform: translate3d(140px, 0, 0);
+  transition: 0.3s;
 }
 
 .write-div:hover {
