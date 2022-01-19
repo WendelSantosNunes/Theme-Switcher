@@ -19,6 +19,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  text-align: center;
 }
 
 body h1 {
@@ -75,3 +77,24 @@ body img {
 .write-div:hover {
   cursor: pointer;
 }
+
+@media (max-width: 251px) {
+  body .container {
+    display: block;
+  }
+
+  body h1 {
+    margin: -100px 0 200px 0;
+    font-size: 30px;
+  }
+
+  .write-div {
+    transform: translate3d(0, -110px, 0);
+    transition: 0.3s;
+  }
+
+  .write-div.active {
+    transform: translate3d(0, -10px, 0);
+    transition: 0.3s;
+  }
+} ;
